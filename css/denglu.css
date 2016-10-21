@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+/*-------------清除设置默认样式----------------*/
+h1,h2,h3,h4,h5,h6,p,a,em,img,strong,b,dl,dt,dd,form,label,ol,ul,li,legend,span,input{margin:0;padding:0;}
+body,html{color:#666666;font:12px/150% Arial,Verdana,"宋体";margin:0;padding:0;}
+ol,ul,li{list-style:none;}
+img{border:0;}
+a{text-decoration:none;color:#666666;}
+a:hover{text-decoration:none;}
+.header{width: 1000px;margin:0 auto;overflow:hidden;}
+.header img, .header span{margin:10px 0;float: left;}
+.header span{line-height: 70px;font-size: 18px;padding-left:3px;}
+
+/*-----------登陆主题部分-------------------*/
+.login_main{width:1000px;margin:0 auto;overflow:hidden;}
+.login_main .login-pic{width:540px;height:390px;padding-top:14px;float:left;}
+.login-pic img{margin-top:32px;}
+
+.login{width:400px;float:left;overflow:hidden;}
+.login-header{width:400px;height:50px;line-height:50px;float:left;}
+.login-header span{display: inline-block;color: #515151;font-size: 16px;float: left;}
+.login-header a{display: inline-block;float: right;font-size: 12px;color: #515151;width: 70px;height: 25px;border: 1px solid #34b742;line-height: 25px;text-align: center;margin-top: 12px;background: #fff4f0;}
+.login-box{position: relative;z-index: 1;left: 0;top: 0px;border: 1px solid #cdcdcd;min-height:50px;float:left;width:398px;}
+.login-box .loginnav{padding:0;position:absolute;width:100%;}
+.login-box .loginnav li{border-bottom: 1px solid #cdcdcd;border-right: 1px solid #cdcdcd;height: 30px;width: 132px;float: left;font-size: 14px;line-height: 30px;cursor: pointer;}
+.login-box .loginnav .bordernone{border-right: 0;}
+.login-box .loginnav li em{float:left;margin: 10px 5px 0 25px;background:url(img/loginicon.png) no-repeat;width: 15px;height: 15px;}
+
+
+.login-box .loginnav .curr{border-bottom: 1px solid #fff;border-top: 2px solid #69af05;position: relative;margin-top: -2px;}
+.login-box .loginnav .npay em{background-position: 0 -25px;}
+.login-box .loginnav .nexpress em{background-position: 0 -48px;}
+
+
+.login-box ul{padding: 45px 0 0 33px;width: 324px;}
+.title{height:26px;line-height:26px;}
+.userName, .password{width:320px;height:36px;border:1px solid #cdcdcd;}
+.mid-li{margin:15px 0 30px}
+.user, #userName, .pass{width:274px;height:20px;padding:8px 5px;line-height:20px;float:left;border:0;font-size:14px;outline:none;}
+.checktext{width:94px;height:20px;line-height:20px;padding:6px 5px;float:left;margin-right:10px;}
+.checktext img{float:left;}
+.forget-password{margin-left:270px;}
+
+
+
+.login-box .login-btn{display:block;background:url(img/login_bg.jpg) left top no-repeat;height:41px;line-height: 41px;font-size: 18px;text-align: center;color: #f2f1f1;letter-spacing:0.8em;margin-bottom:10px;}
+.use{margin:10px 0 0 3px;}
+
+.login-box .blink{padding: 0;border-top: 1px solid #cdcdcd;width: 100%;margin: 15px 0 0 0;}
+.p-f10{padding: 5px 10px 0 33px;}
+.login-box li h2.h2{font-size: 12px;font-weight: normal;height: 20px;line-height: 20px;padding-top: 5px;}
+.login-box li a{color: #176246;height: 26px;line-height: 26px;}
+
+
+
+
+/*------footer---------*/
+.footer{width:1000px;margin:0 auto;padding-top:20px;overflow:hidden;}
+.footer span, .footer p{line-height: 26px;margin: 0 auto;text-align: center;display:block;}
+.footer p{line-height: 26px;}
+.footer a.footerlink1{color: #666;text-decoration: none;}
+

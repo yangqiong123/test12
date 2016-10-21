@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------------------slide_show 轮播图  ---------------------------*/
+.slide_show{width:100%;height:480px;position:relative;}
+.indexW{width:1200px;height:480px;position:relative;margin:0 auto;}
+.indexW .index_show{position:relative;width:1200px;height:480px;overflow:hidden;}
+.index_show .index_slide{position:absolute;width:10800px;}
+.index_show .index_slide img{width:1200px;height:480px;left:0;top:0;}
+.index_show .index_slide li{float:left;}
+.index_show .cur_list{position:absolute;bottom:20px;left:50%;margin-left:-165px;}
+.index_show .cur_list .cur{display:inline-block;height:25px;width:25px;border-radius:25px;text-align:center;line-height:25px;margin-right:10px;background:#646464;color:#fff;opacity:.7;}
+
+
+.indexW .indexW_right{position:absolute;right:0;top:20px;width:260px;overflow:hidden;}
+.indexW .indexW_right_a{float:right;position:relative;padding:0;margin:0;overflow:hidden;width:260px}
+.indexW .indexW_right_a img{display:block;margin:0;padding:0;}
+.indexW .indexW_right_a .overlay{position:absolute;background:#f0f0f0;left:0;top:0;width:100%;height:100%;z-index:2;opacity:.6;display:none;}
+
+/*------------contentW-------------*/
+.contentW{width:100%;overflow:hidden;}
+.contentAll{width:1189px;margin:0 auto;overflow:hidden;padding-left:11px;}
+
+/*--------------口碑甄选---------------*/
+.contentAll_top{width:1200px;height:14px;margin:32px 0 12px;}
+.contentAll_top h2{font-size:14px;float:left;height:14px;letter-spacing:4px;}
+.contentAll .contentAll_top span{display:inline-block;float:left;width:118px;height:14px;margin-left:15px;background:url(img/index_icon_new.png) no-repeat -29px -333px;}
+.top_details{overflow:hidden;}
+.top_details .top_details_left{width:946px;overflow:hidden;}
+.top_details .top_details_left{overflow:hidden;border:1px solid #ccc;border-top:0;border-right:0;}
+.top_details_left{float:left;position:relative;overflow:hidden;}
+.top_details_left .bbig_pic{border:1px solid #ccc;border-bottom:0;border-left:0;float:left;position:relative;width:235px;height:258px;overflow:hidden;}
+.contentAll .btn_shopcar{position:absolute;display:block;text-align:center;width:160px;height:24px;line-height:24px;color:#fff;border-radius:2px;background:#76ac25 url(img/bgbea.png) no-repeat -50px -177px;z-index:4;bottom:-50px;opacity:0.9;margin-left:38px;}
+.bbig_pic .price{position:absolute;top:70px;left:20px;color:#ff4700;font:bold 16px/18px "微软雅黑";}
+.contentW .top_details_left .ssml{height:200px;}
+
+.top_details_right{width:222px;height:459px;border:1px solid #ccc;overflow:hidden;float:right;}
+.newmove{border-bottom:1px dotted #dbdbdb;padding:15px 0 10px 0;line-height:14px;height:14px;margin:0px 10px 10px;}
+.newmove h4{font-weight:100;color:#323232;font-size:14px;float:left;display:inline-block;}
+.newmove a{float:right;}
+.top_details_right p{margin-left:10px;line-height:24px;}
+.top_details_right p .dif{color:#fa6400}
+
+/*--------------限时抢购----------------*/
+.timedbuy,.floorW{width:1200px;overflow:hidden;margin:25px auto 0;}
+.timedbuy_left{width:945px;height:330px;float:left;background:#ffecbf;}
+.timedbuy .ttop{font-size:24px;color:#fa6400;height:28px;line-height:28px;padding:18px 0 18px 20px;}
+.timedbuy .ttop span{float:left;background:url(img/index_icon_new.png) no-repeat -1px -314px;margin:-5px 0 0 10px;width:19px;height:37px;}
+.timedbuy .ttop p{float:left;margin-left:10px;}
+.timedbuy .ttop .xiaqi{margin-top:-2px;width:111px;height:28px;background:url(img/index_icon_new.png) no-repeat -204px -319px;}
+.timedbuy .ttop .haisheng{font-size:12px;padding:0 10px;color:#565656;}
+.timedbuy .ttop dd{font:bold 20px/28px "宋体"; color:#fff;float:left;text-align:center;width:20px;height:28px;margin-right:2px;background:url(img/bgbea.png) no-repeat -83px -77px;}
+.timedbuy .ttop .no{color:#555;background:#ffecbf;font-size:18px;font-family:"宋体";width:16px;}
+.timedbuy .ttop .tt1{font-size:12px;color:#565656;}
+.timedbuy .ttop .tright{float:right;width:100px;height:28px;text-align:center;font-size:16px;vertical-align:top;margin-right:10px;cursor:pointer;color:#666;background:url(img/bgbea.png) no-repeat -90px -296px;font-weight:bold;}
+
+.tblist{margin-left:30px;}
+.tblist li{width:150px;padding:15px;border-right:1px solid #ffecbf;float:left;background:#fff;position:relative;overflow:hidden;}
+.tblist li img{display:inline-block;margin-bottom:10px;margin-left:-20px;}
+
+.price i{font-size:14px;color:#ea5404;width:55px;font-weight:bold;font-style:normal;}
+.tblist .price span{text-align:center;font-size:12px;float:right;background:#fa6400;padding:0 10px;border-radius:2px;margin:0 2px 0 0;}
+.tblist .price span a{color:#fff;}
+.timedbuy_right{float:right;}
+
+/*------------------蔬菜类----------------------*/
+.category{width:240px;float:left;overflow:hidden;}
+.category .baicai{margin-left:-10px;}
+.category h2{width:240px;height:50px;line-height:50px;background:#76ac25 url(img/bg_bookSort.png) no-repeat 75px -148px;float:left;}
+.category h2 a{font-size:14px;color:#fff;font-weight:100;margin-right:10px;}
+.category h2 .category-a{margin-left:100px;}
+.sfRight{width:950px;float:left;position:relative;border-top:1px solid #adcd7c;}
+.sfRight .subCont {padding:15px 10px 9px 10px;width:710px;border-bottom:1px solid #F4F4F4;float:left;}
+.pList li{width:160px;padding:8px;float:left;position:relative;}
+.pImg{margin-bottom:10px;width:160px;height:160px;overflow:hidden;position:relative;}
+.pImg img{width:160px;height:160px;}
+.gBtn{position:absolute;width:160px;height:24px;border-radius:2px;background:#76ac25;opacity:.9;z-index:3;bottom:-24px;}
+.gBtn a{margin: 0 auto;width:60px;height:24px;display:block;background:url(img/bgbea.png) no-repeat -66px -177px;line-height:24px;font-size:12px;color:#fff;padding-left:20px;}
+.pList .price{font-size:16px;font-weight:bold;color:#ea5404;width:70px;float:left;}
+.sfRight .redge{width:220px;height:469px;float:left;background:#f4f4f4;overflow:hidden;}
+.sfRight .rHot {margin:25px 0 0 15px;height:189px;overflow:hidden;}
+.sfRight .rHot li{margin:4px;width:55px;height:55px;text-align:center;background-color:#fff;line-height:55px;float:left;border-radius:55px; }
+.sfRight .rHot li:hover{background-color:#76AC25;}
+.sfRight .rHot li:hover a{color:#fff;}
+.ring .rbutton{display:block;position:relative;z-index:10;margin:-166px 0 0 15px;width:25px;height:25px;background:url(img/index_icon_new.png) no-repeat -204px 0;}
+.ring:hover .rbutton{background-position:-204px -33px;}
+
+/*-----------文章--------------*/
+.captition{font-size: 16px;font-weight: bold;height: 25px;line-height: 25px;padding: 15px 0 10px 0;border-bottom: 1px solid #E8E8E8;color: #323232;}
+.captition p{background: url(img/zhiwei_bg.jpg) no-repeat center left;padding: 0 0 0 15px;width: 385px;}
+.zhiwei{width:400px;float:left;border-bottom:1px solid #f0f0f0;margin:0 20px 0 0;height:200px;overflow:hidden;}
+.zhiwei .slide{width: 170px;position: relative;height: 120px;overflow: hidden;float: left;margin-top: 20px;}
+.zhiwei .info{float: left;margin: 20px 0 0 10px;line-height: 20px;}
+.zhiwei .info p{background: url(img/dian.jpg) no-repeat scroll left center rgba(0, 0, 0, 0);height: 20px;overflow: hidden;padding-left: 10px;width: 205px;line-height: 20px;}
+
+
+.share{width:420px;float:left;border-bottom:1px solid #f0f0f0;margin:0 20px 0 0;height:200px;overflow:hidden;}
+.srollbox{margin-top:20px;position:relative;height:122px;overflow:hidden;}
+.srollbox ul{position:absolute;left:0;top:0;}
+.share li {height:58px;overflow: hidden;border-bottom: 1px dotted #e8e8e8;margin-bottom: 6px;vertical-align: middle;}
+.share .share_c{height:50px;overflow:hidden;}
+.share .share_c img{width:50px;height:50px;}
+.share .share_c a{color:#FA9600;}
+.share .share_c .l{float:left;}
+.share .share_c .r{float:right;width:370px;overflow:hidden;}
+.share .share_c .r p{padding-left:20px;overflow:hidden;height:22px;line-height:22px;}
+.share .share_c .r .s_title{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.share .share_c .r .s_title a{color:#666;}
+
+
+.youpin{border:1px solid #E8E8E8;float:right;height:199px;width:337px;}
+.ucaption {font-size:16px;font-weight:bold;margin:0 auto;width:300px;height:25px;line-height:25px;padding:14px 0 10px 0;border-bottom:1px solid #E8E8E8;}
+.ucaption p{background:url(img/youpin.jpg) no-repeat center left;padding:0 0 0 24px;float:left;color:#323232;}
+.ucaption h2{cursor:pointer;float:right;width:60px;height:29px;background:url(img/foot_bottom.png) no-repeat -3px -97px;}
+.ucaption h2:hover{background-position:-3px -123px;}
+.youpin .upic{margin:20px auto;width:300px;overflow:hidden;margin-bottom:0;}
+.youpin .upic span{float:left;width:70px;text-align:center;margin-right:5px;display:inline-block;}
+.youpin .upic img{width:70px;height:70px;display:block;margin:0;padding:0;border:0;}
+
+.mailDy{width:302px;margin:0 auto;padding:15px 0 0 0;overflow:hidden;}
+.mainlDYitem span{float:left;margin-right:2px;}
+.mainlDYitem .i{width:130px;height:22px;line-height:22px;padding:0 2px;border:1px solid #cccccc;margin-right:2px;display:inline;color:#969696;}
+.mainlDYitem .btn{background:url(img/foot_bottom.png) no-repeat -118px -106px;height:24px;width:44px;display:block;}
+.mainlDYitem .diqu{width:50px;height:24px;border:1px solid #ccc;}
+
+
+
+

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/*-------------清除设置默认样式----------------*/
+h1,h2,h3,h4,h5,h6,p,a,em,img,strong,b,dl,dt,dd,form,label,ol,ul,li,legend,span,input{margin:0;padding:0;}
+body,html{color:#666666;font:12px/150% Arial,Verdana,"宋体";margin:0;padding:0;background-color:#f5f5f5;}
+ol,ul,li{list-style:none;}
+img{border:0;}
+a{text-decoration:none;color:#666666;}
+a:hover{text-decoration:none;}
+.header{width: 1000px;margin:0 auto;overflow:hidden;}
+.header img, .header span{margin:10px 0;float: left;}
+.header span{line-height: 70px;font-size: 18px;padding-left:3px;}
+
+
+/*-----------------注册头部-----------------*/
+
+.zhucetop{width:666px;margin:0 auto;padding-left:333px;height:37px;border-bottom:1px solid #d6d5d5;clear:both;}
+.personal, .company{cursor:pointer;position: relative;top:0px;width: 163px;height: 36px;line-height:38px;float:left;border:1px solid #d6d5d5;border-bottom:0;text-align:center;background-color:#ececec}
+.personal{margin-right:20px;}
+.btom{border-bottom:1px solid #fff;background-color:#fff;}
+.denglu{float:right;width: 130px;padding-top: 14px;font-size:12px;color: #565656;}
+.denglu a{color:#6e9b0c;}
+
+/*-----------------注册主体----------------*/
+.reg-main{padding:45px 0 0 40px;width:960px;overflow:hidden;background:#fff url(img/bgzhuce.jpg) right 78px no-repeat;margin:0 auto;}
+.reg-main li{height:38px;clear:both;}
+.reg-main li label{float:left;width:118px;font-size: 14px;color: #515151;height: 38px;line-height: 38px;text-align: right;}
+label font{color:#ff4800;}
+.remind{float:left;padding:0 10px 0 15px;width:230px;height:30px;}
+.shuru{float:left;width:228px;height:30px;line-height:30px;color:#515151;padding:0 5px;}
+.jibie{display:inline-block;padding:0 5px;background-color:#c4c4c4;color:#fff;}
+#yazhema{float:left;width:58px;height:30px;line-height:30px;color:#515151;padding:0 5px;}
+.img{float:left;margin:0 10px;}
+.kanbuqing{float:left;width:86px;line-height:36px;}
+.kanbuqing a{color:#6e9b0c;}
+
+
+#tijiao{background-color:#6e9b0c;color:#fff;font-size:16px;text-align:center;border:none;margin-left:100px;border-radius:5px;cursor:pointer;}
+#checked{float:left;margin:3px 5px 0 100px;}
+.ty{float:left;}
+.ty i{font-style:normal;color:#6e9b0c;}
+.gou{float:left; margin-left:50px;color:#ff4800;font-weight:100;display:none;}
+
+
+
+
+.ui-reg-tip{padding: 15px 10px 10px 45px;border-top: 1px dotted #dcdcdc;position: relative;left: -30px;width: 930px;background: url(img/reg_tip.png) no-repeat 25px 16px;}
+.ui-reg-tip a{color:#669900;}
+/*------footer---------*/
+.footer{width:1000px;margin:0 auto;padding-top:20px;overflow:hidden;}
+.footer span, .footer p{line-height: 26px;margin: 0 auto;text-align: center;display:block;}
+.footer p{line-height: 26px;}
+.footer a.footerlink1{color: #666;text-decoration: none;}
